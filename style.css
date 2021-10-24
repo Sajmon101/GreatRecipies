@@ -1,3 +1,11 @@
+header
+{
+    background-image: url("plan.png");
+    margin: 0,auto,0,auto;   
+}
+
+
+
 body /* dotyczy wszystkiego*/
 {
     background-color: burlywood;
@@ -6,7 +14,12 @@ body /* dotyczy wszystkiego*/
     color: white;
 
 }
-
+span
+{
+    border: 3px solid royalblue;
+    padding: 10px;
+    margin: 0 auto 0 auto;   
+}
 h1 /* nagłówek */
 {
     font-size: 30px;
@@ -15,4 +28,36 @@ h1 /* nagłówek */
 a:hover
 {
     color: gray;
+}
+h2 {
+    color: firebrick;
+    font-size: 28px;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section {
+    background-color:thistle;
+    border: 5px solid black;
+    padding: 5px;
+    display:flex;
+    justify-content: space-around;
+
+}
+selection span a{
+    color: black;
+    text-decoration: none;
+}
+section1 {
+    background-color:tomato;
+    border: 20px solid black;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    justify-content: space-around;
 }
