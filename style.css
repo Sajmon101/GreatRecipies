@@ -14,30 +14,27 @@ body /* dotyczy wszystkiego*/
     color: white;
 
 }
-span
-{
-    border: 3px solid royalblue;
-    padding: 10px;
-    margin: 0 auto 0 auto;   
-}
+
 h1 /* nagłówek */
 {
     font-size: 30px;
 }
-
-a:hover
-{
-    color: gray;
+h1 div{
+    padding-top: 250px;
+    display:flex;
+    justify-content: space-around;
 }
+
 h2 {
     color: firebrick;
     font-size: 28px;
-    width: 250px;
-    height: 400px;
+    height: 82px;
     padding: 20px;
-    margin: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:space-around
 
 }
 section {
@@ -48,9 +45,25 @@ section {
     justify-content: space-around;
 
 }
-selection span a{
+.selection-span{
+    border: 3px solid royalblue;
+    border-radius: 25%;
+    padding: 15px;
+    margin: 0 auto 0 auto; 
+    background-color:yellow;
     color: black;
     text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow:5px 0 10px gray;
+}
+.selection-span:hover
+{
+    color: white;
+    background-color: tomato;
+}
+.selection-span:active{
+   text-decoration: underline;
+
 }
 section1 {
     background-color:tomato;
@@ -60,4 +73,16 @@ section1 {
     margin-right: 100px;
     display:flex;
     justify-content: space-around;
+    
+}
+section1 div span p{
+    color: green; 
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 span{
+    background-color: chartreuse;
+    border: 5px solid black;
+    padding: 15px;
+    margin-top: 80px; 
 }
