@@ -1,9 +1,10 @@
-header
+header /* głowa - górna część strony*/
 {
     background-image: url("plan.png");
     margin: 0,auto,0,auto;   
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
-
 
 
 body /* dotyczy wszystkiego*/
@@ -15,20 +16,24 @@ body /* dotyczy wszystkiego*/
 
 }
 
+
 h1 /* nagłówek */
 {
     font-size: 30px;
 }
-h1 div{
+h1 div /* zmienia funkcję div nagłówka h1 */
+{
     padding-top: 250px;
     display:flex;
     justify-content: space-around;
 }
 
-h2 {
+
+h2 /* nagłówek nr2 */
+{
     color: firebrick;
     font-size: 28px;
-    height: 82px;
+    height: 100px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +42,16 @@ h2 {
     justify-content:space-around
 
 }
-section {
+h2 span{
+    background-color: chartreuse;
+    border: 5px solid black;
+    padding: 15px;
+    margin-top: 80px; 
+}
+
+
+section /* obszar 0 */
+{
     background-color:thistle;
     border: 5px solid black;
     padding: 5px;
@@ -45,7 +59,8 @@ section {
     justify-content: space-around;
 
 }
-.selection-span{
+.selection-span /* klasa wykorzystywana do mnienienia funkcji span obszaru 0 (przyciski na pasku) */
+{
     border: 3px solid royalblue;
     border-radius: 25%;
     padding: 15px;
@@ -56,33 +71,39 @@ section {
     transition: background-color 0.5s, color 0.5s;
     box-shadow:5px 0 10px gray;
 }
-.selection-span:hover
+.selection-span:hover /*  obaszar 0 najechanie kursorem na przycisk */
 {
     color: white;
     background-color: tomato;
 }
-.selection-span:active{
+.selection-span:active/* ( obaszar 0 przyciśnięcie przycisku */
+{
    text-decoration: underline;
 
 }
-section1 {
+
+
+section1 /* obaszar 1 strona główna pod wyborem pory dnia */
+{
+
     background-color:tomato;
     border: 20px solid black;
     padding: 5px;
     margin-left: 100px;
     margin-right: 100px;
     display:flex;
-    justify-content: space-around;
-    
+
 }
-section1 div span p{
-    color: green; 
-    margin-left: auto;
-    margin-right: auto;
+section1 span {
+    color: green;
+    width: 50%;
 }
-h2 span{
-    background-color: chartreuse;
-    border: 5px solid black;
-    padding: 15px;
-    margin-top: 80px; 
+
+
+sectiondown /* obaszar na dole strony */
+{
+    background-color:black;
+    color:white;
+    display:flex;
 }
+
