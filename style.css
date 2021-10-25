@@ -9,6 +9,7 @@ header /* głowa - górna część strony*/
 
 body /* dotyczy wszystkiego*/
 {
+    margin:0;
     background-color: burlywood;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
@@ -17,13 +18,12 @@ body /* dotyczy wszystkiego*/
 }
 
 
-h1 /* nagłówek */
+header /* nagłówek */
 {
     font-size: 30px;
 }
-h1 div /* zmienia funkcję div nagłówka h1 */
+#logo /* zmienia funkcję div nagłówka h1 */
 {
-    padding-top: 250px;
     display:flex;
     justify-content: space-around;
 }
@@ -33,7 +33,7 @@ h2 /* nagłówek nr2 */
 {
     color: firebrick;
     font-size: 28px;
-    height: 100px;
+    height: 60px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -52,6 +52,8 @@ h2 span{
 
 section /* obszar 0 */
 {
+    margin-left: 50px;
+    margin-right: 50px;
     background-color:thistle;
     border: 5px solid black;
     padding: 5px;
@@ -103,7 +105,13 @@ section1 span {
 sectiondown /* obaszar na dole strony */
 {
     background-color:black;
+    margin-top: 80px;
     color:white;
     display:flex;
+}
+#ff{
+    
+    padding-left: auto;
+    padding-right: auto;
 }
 
