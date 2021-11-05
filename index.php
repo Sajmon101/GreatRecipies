@@ -40,6 +40,27 @@
             </a>
         </span>
     </section>
+
+    <h3><!--powiększenie dystansu pomiędzy ramkami-->
+    </h3>
+
+    <section1 class="ramka-na-wyszukiwanie"><!--ramka z propozycją wyszukiwania-->
+        <div>
+            <span>
+                <p>
+
+                  TEST
+                    
+                </p>
+            </span>
+
+            
+        </div>
+    </section1>
+
+    <h3><!--powiększenie dystansu pomiędzy ramkami-->
+    </h3>
+
     <?php
     if(isset($_GET['page'])){
         if($_GET['page'] == "dinner"){
@@ -72,22 +93,7 @@
         echo "<h1>nie</h1>";
     }
     ?>
-                            <h3><!--powiększenie dystansu pomiędzy ramkami-->
-                            </h3>
-    <section1><!--ramka z propozycją wyszukiwania-->
-        <div>
-            <span>
-                <p>
 
-                  TEST
-                    
-                </p>
-            </span>
-
-            <img src="zdjęcia i inne/testowejedzenie.jpg" width="80px"/>
-
-        </div>
-    </section1>
 
 
     <sectiondown><!--obszar na samym dole strony-->

@@ -54,7 +54,7 @@ section /* obszar 0 */
 {
     margin-left: 50px;
     margin-right: 50px;
-    background-color:thistle;
+    background-color:rgb(96, 144, 167);
     border: 5px solid black;
     padding: 5px;
     display:flex;
@@ -63,11 +63,11 @@ section /* obszar 0 */
 }
 .selection-span /* klasa wykorzystywana do mnienienia funkcji span obszaru 0 (przyciski na pasku) */
 {
-    border: 3px solid royalblue;
+    border: 3px solid rgb(43, 51, 131);
     border-radius: 25%;
     padding: 15px;
     margin: 0 auto 0 auto; 
-    background-color:yellow;
+    background-color:rgb(92, 89, 89);
     color: black;
     text-decoration: none;
     transition: background-color 0.5s, color 0.5s;
@@ -76,7 +76,7 @@ section /* obszar 0 */
 .selection-span:hover /*  obaszar 0 najechanie kursorem na przycisk */
 {
     color: white;
-    background-color: tomato;
+    background-color: rgb(237, 255, 71);
 }
 .selection-span:active/* ( obaszar 0 przyciśnięcie przycisku */
 {
@@ -88,7 +88,7 @@ section /* obszar 0 */
 section1 /* obaszar 1 strona główna pod wyborem pory dnia */
 {
 
-    background-color:tomato;
+    background-color:rgb(240, 240, 240);
     border: 20px solid black;
     padding: 5px;
     margin-left: 100px;
@@ -108,6 +108,7 @@ sectiondown /* obaszar na dole strony */
     margin-top: 80px;
     color:white;
     display:flex;
+
 }
 #ff{
     
@@ -115,3 +116,9 @@ sectiondown /* obaszar na dole strony */
     padding-right: auto;
 }
 
+.ramka-na-wyszukiwanie
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgb(175, 94, 39);
+}
