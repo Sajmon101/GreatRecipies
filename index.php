@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,35 +11,67 @@
 </head>
 <body>
     <header>
-        
-            <div id="logo">
-                <img src="zdjęcia i inne/logo.png" width="300px"/>
-            </div>
-        
+            <a href="/">
+                <div id="logo">
+                    <img src="zdjęcia i inne/logo.png" width="300px"/>
+                </div>
+            </a>
     </header>
 
     <section><!--ramka z przyciskami wyboru dnia-->
         <span class="selection-span">
-            <a  href="file:///C:/Users/super/OneDrive/Pulpit/GreatRecipies/searching.html" style="color:brown;text-decoration: none;">
+            <a  href="/?page=breakfast" style="color:brown;text-decoration: none;">
                 breakfast
             </a>
         </span>
         <span class="selection-span">
-            <a href="file:///C:/Users/super/OneDrive/Pulpit/GreatRecipies/searching.html" style="color:brown;text-decoration: none;">
+            <a href="/?page=lunch" style="color:brown;text-decoration: none;">
                 lunch
             </a>
         </span>
         <span class="selection-span">
-            <a href="file:///C:/Users/super/OneDrive/Pulpit/GreatRecipies/searching.html" style="color:brown;text-decoration: none;">
+            <a href="/?page=dinner" style="color:brown;text-decoration: none;">
                 dinner
             </a>
         </span>
         <span class="selection-span">
-            <a href="file:///C:/Users/super/OneDrive/Pulpit/GreatRecipies/searching.html" style="color:brown;text-decoration: none;">
+            <a href="/?page=supper" style="color:brown;text-decoration: none;">
                 supper
             </a>
         </span>
     </section>
+    <?php
+    if(isset($_GET['page'])){
+        if($_GET['page'] == "dinner"){
+            echo 
+         '<section1>
+            <div>
+                <span>
+                    <p>
+                      TEST
+                    </p>
+                </span>
+                <img src="zdjęcia i inne\testowejedzenie.jpg" width="300px"/>
+            </div>
+        </section1>';
+        }
+        else{
+            echo '<section1>
+            <div>
+                <span>
+                    <p>
+    
+                      TEST
+                    </p>
+                </span>
+            </div>
+        </section1>';;
+        }
+    }
+    else{
+        echo "<h1>nie</h1>";
+    }
+    ?>
                             <h3><!--powiększenie dystansu pomiędzy ramkami-->
                             </h3>
     <section1><!--ramka z propozycją wyszukiwania-->
@@ -46,7 +79,7 @@
             <span>
                 <p>
 
-                    TEST
+                  TEST
                     
                 </p>
             </span>
