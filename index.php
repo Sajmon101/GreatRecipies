@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="This is culinary blog with the best reciepies and quick searching for the dish based on ingredients you have"/>
     <meta name="keywords" content="reciepies, searching, dish, meal, breakfast, lunch, dinner, delicious,"/>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
     <title>New recipies - GreatRecipies</title>
 </head>
 <body>
@@ -20,22 +20,22 @@
 
     <section><!--ramka z przyciskami wyboru dnia-->
         <span class="selection-span">
-            <a  href="/?page=breakfast" style="color:brown;text-decoration: none;">
+            <a  href="/?page=breakfast" style="color:cornsilk;text-decoration: none;">
                 breakfast
             </a>
         </span>
         <span class="selection-span">
-            <a href="/?page=lunch" style="color:brown;text-decoration: none;">
+            <a href="/?page=lunch" style="color:cornsilk;text-decoration: none;">
                 lunch
             </a>
         </span>
         <span class="selection-span">
-            <a href="/?page=dinner" style="color:brown;text-decoration: none;">
+            <a href="/?page=dinner" style="color:cornsilk;text-decoration: none;">
                 dinner
             </a>
         </span>
         <span class="selection-span">
-            <a href="/?page=supper" style="color:brown;text-decoration: none;">
+            <a href="/?page=supper" style="color:cornsilk;text-decoration: none;">
                 supper
             </a>
         </span>
@@ -46,11 +46,17 @@
 
     <section1 class="ramka-na-wyszukiwanie"><!--ramka z propozycją wyszukiwania-->
         <div>
-            <span>
+            <span class="przyciski-wyszukiwania">
                 <p>
-
-                  TEST
-                    
+                    <center>
+                        Don't have a lot of food in your fridge?
+                        <br/>
+                        Use ouer search engine:
+                        <br/>
+                            <a  href="searching.html" style="color:cornsilk;text-decoration: none;">
+                                Searching
+                            </a>
+                    </center>
                 </p>
             </span>
 
