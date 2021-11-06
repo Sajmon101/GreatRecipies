@@ -6,19 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="This is culinary blog with the best reciepies and quick searching for the dish based on ingredients you have"/>
     <meta name="keywords" content="reciepies, searching, dish, meal, breakfast, lunch, dinner, delicious,"/>
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="http://localhost//CSS/style.css" type="text/css"/>
     <title>New recipies - GreatRecipies</title>
 </head>
+
 <body>
+
     <header>
             <a href="/">
                 <div id="logo">
-                    <img src="zdjęcia i inne/logo.png" width="300px"/>
+                    <img src="CSS/zdjęcia i inne/logo.png" width="300px"/>
                 </div>
             </a>
     </header>
 
     <section><!--ramka z przyciskami wyboru dnia-->
+        <span class="selection-span">
+            <a  href="/" style="color:cornsilk;text-decoration: none;">
+                All
+            </a>
+        </span>
         <span class="selection-span">
             <a  href="/?page=breakfast" style="color:cornsilk;text-decoration: none;">
                 breakfast
@@ -71,7 +78,7 @@
     if(isset($_GET['page'])){
         if($_GET['page'] == "dinner"){
             echo 
-         '<section1>
+         '<section2>
             <div>
                 <span>
                     <p>
@@ -80,10 +87,10 @@
                 </span>
                 <img src="zdjęcia i inne\testowejedzenie.jpg" width="300px"/>
             </div>
-        </section1>';
+        </section2>';
         }
         else{
-            echo '<section1>
+            echo '<section2>
             <div>
                 <span>
                     <p>
@@ -92,7 +99,7 @@
                     </p>
                 </span>
             </div>
-        </section1>';;
+        </section2>';;
         }
     }
     else{
@@ -102,7 +109,9 @@
 
 
 
-    <sectiondown><!--obszar na samym dole strony-->
+
+    <!--Stopka-->
+    <sectiondown>
         <span>
             <div id="">
                 &copy GreatRecipies 2021 All rights reserved. Coping and modyfing and spreading without agreement is forbidden.
